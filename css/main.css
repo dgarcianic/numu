@@ -1,0 +1,129 @@
+
+/* Fonts  */
+/* 	https://www.google.com/fonts#UsePlace:use/Collection:Lato */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+
+/* Colours 
+	Numu Orange:    #FFC56D
+    Numu Teal:      #4CA585
+    Pale Yellow:    #FFFCF7
+*/
+
+
+/*  General CSS  */
+
+html {
+    font-size: 16px;
+    background-color: #FFFCF7
+}
+
+/*  Header  */
+
+header {
+    background-color: #FFC56D;
+    height: 75px;
+}
+
+header img {
+    height: 12px;
+}
+
+header .container {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 36px;
+}
+
+.search {
+    background-color: #fff;
+    margin-left: 11px;
+    border-radius: 8px;
+    width: 281px;
+}
+
+.search img {
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+.search input {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 11px;
+    color: #FFC56D;
+    margin-bottom: 2px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFC56D;
+}
+
+/*  Footer  */
+
+footer {
+    background-color: #FFC56D;
+    height: 50px;
+}
+
+footer .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 11px;
+}
+
+footer img {
+    height: 25px;
+    width: auto;
+}
+
+/* Body */
+
+body {
+    margin-top: 75px;
+}
+
+/* Categories Section */
+
+section.categories {
+    background-color: #FFFCF7;
+    padding-top: 40px;
+}
+
+section.categories .row {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+section.categories .card {
+    border: 1.25px solid #4CA585;
+    width: 125px;
+    height: 125px;
+    padding-top: 25px;
+    background-color: transparent;
+    margin-bottom: 40px
+}
+
+section.categories .row.last-row {
+    margin-bottom: 50px
+}
+
+section.categories .card-body {
+    padding: 20px 0 0 0;
+}
+
+section.categories .card img {
+    height: 40px;
+}
+
+section.categories .card p.card-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #4CA585;
+}
