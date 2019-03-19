@@ -34,6 +34,12 @@ section.landing-page img {
     margin-bottom: 50%;
 }
 
+/* Sign In */
+
+section.sign-in {
+    background-color: #ffc56d;
+}
+
 /*  Header  */
 
 header {
