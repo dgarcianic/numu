@@ -19,6 +19,21 @@ html {
     background-color: #FFFCF7
 }
 
+/* Landing Page */
+
+section.landing-page {
+    height: 100vh;
+    width: 100vw;
+    background: -webkit-linear-gradient(top, #ffc56d 0%,#ffc56d 45%,#ffffff 100%);
+}
+
+section.landing-page img {
+    width: 164px;
+    height: 100%;
+    margin-top: 100%;
+    margin-bottom: 50%;
+}
+
 /*  Header  */
 
 header {
@@ -95,6 +110,10 @@ footer img {
 
 body {
     margin-top: 75px;
+}
+
+body#landing-page-body {
+    margin: 0;
 }
 
 /* Categories Section */
