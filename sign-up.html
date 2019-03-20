@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #ffc56d">
+<html lang="en" style="background-color: #FFFFFF">
+
 <head>
 	<title>Numu - Adulting Made Easy</title>
 	<meta charset="utf-8">
@@ -11,45 +12,52 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-	
+
 </head>
+
 <body id="landing-page-body">
 	<!--  start header  -->
 
 	<!--  end header  -->
 
 	<!--  start categories section  -->
-	<section class="sign-in">
-		<div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xs-12">
-					<img src="img/numu-logo.svg">
-					<p>adulting made easy</p>
-                </div>
-            </div>
-        </div>
-	</section>
-
-	<section class="sign-in-form">
+	<section class="sign-up">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xs-12">
-					<form action="" method="post" name="login">
+					<img src="img/numu-logo.svg">
+					<p>First things first, we need you signed up so you can see what the Comox Valley has to offer!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sign-up-form">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xs-12">
+					<form action="" method="post" name="sign-up">
 						<div class="form-group">
-						   <input type="email" name="email"  class="numu-form" id="email" placeholder="Username or Email">
+							<input type="text" name="first-name" class="numu-form" id="first-name" placeholder="First Name">
 						</div>
 						<div class="form-group">
-						   <input type="password" name="password" id="password"  class="numu-form" placeholder="Password">
+							<input type="text" name="last-name" class="numu-form" id="last-name" placeholder="Last Name">
 						</div>
 						<div class="form-group">
-						   <p class="text-right"><a href="#">forgot your password?</a></p>
+							<input type="email" name="email" class="numu-form" id="email" placeholder="Email Address">
+						</div>
+						<div class="form-group">
+							<input type="text" name="username" class="numu-form" id="username" placeholder="Username">
+						</div>
+						<div class="form-group">
+							<input type="password" name="password" id="password" class="numu-form" placeholder="Password">
 						</div>
 						<div class="col-xs-12 text-center ">
-						   <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">LOG IN</button>
+							<button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">SIGN UP</button>
 						</div>
 						<div class="form-group">
-							<p class="text-center"><a href="#">No account? Let's get you started!</a></p>
-						 </div>
+							<p class="text-center">By signing up, you agree to our <a href="#">Terms & Privacy Policy</a></p>
+						</div>
 				</div>
 			</div>
 		</div>
@@ -61,4 +69,5 @@
 	<!--  end footer  -->
 
 </body>
+
 </html>
