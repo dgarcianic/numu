@@ -275,9 +275,9 @@ section.establishment-page-primary p {
     margin-bottom: 0;
 }
 
-section.establishment-page-primary img {
+/* section.establishment-page-primary img {
     object-fit: cover;
-}
+} */
 
 .establishment-info {
     margin-top: 40px;
@@ -315,8 +315,13 @@ section.establishment-page-primary img {
     letter-spacing: .5px;
 }
 
+.submitted-images {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .submitted-images img {
-    object-fit: cover;
+    /* object-fit: cover; */
     border: 2px solid #FFFCF7;
 }
 
