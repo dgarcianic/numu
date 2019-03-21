@@ -36,6 +36,11 @@ section.landing-page img {
     margin-bottom: 50%;
 }
 
+section.landing-page .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /* Sign In */
 
 section.sign-in {
@@ -66,7 +71,13 @@ section.sign-in-form .btn-primary {
 
 /* Sign Up */
 
-
+#logo {
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    bottom: 4px;
+}
 
 /*  Header  */
 
@@ -80,16 +91,15 @@ header img {
 }
 
 header .container {
-    margin-left: 12px;
-    margin-right: 12px;
     padding-top: 36px;
+    position: relative;
 }
 
 .search {
     background-color: #FFFFFF;
-    margin-left: 11px;
     border-radius: 8px;
-    width: 281px;
+    width: 104%;
+    margin-left: -15px;
 }
 
 .search img {
@@ -104,19 +114,20 @@ header .container {
     font-size: 11px;
     color: #FFC56D;
     margin-bottom: 2px;
+    width: 85%;
 }
 
 ::-webkit-input-placeholder {
     color: #FFC56D;
 }
 
-p.back-button {
+span.back-button {
     font-size: 11px;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
     color: #FFFCF7;
     font-weight: 500;
-    padding-top: 5px;
+    /* padding-top: 6px; */
     padding-left: 9px;
 }
 
@@ -202,7 +213,7 @@ section.establishments .establishment-card {
     border: 1.5px solid #4CA585;
     width: 290px;
     height: 374px;
-    padding-top: 20px;
+    padding: 20px;
     background-color: transparent;
     margin-bottom: 40px;
     border-radius: 8px;
@@ -210,8 +221,8 @@ section.establishments .establishment-card {
 }
 
 section.establishments .establishment-card img{
-    width: 251px;
-    height: 251px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 8px;
     text-align: center;
@@ -256,7 +267,7 @@ header.establishment #logo img{
     padding-left: 86px;
 }
 
-header.establishment p {
+header.establishment span {
     color: #FFC56D;
 }
 
