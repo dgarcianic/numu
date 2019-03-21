@@ -9,6 +9,8 @@
 	Numu Orange:    #FFC56D
     Numu Teal:      #4CA585
     Pale Yellow:    #FFFCF7
+    Middle Gray:    #9F9F9F
+    Light Gray:     #BFBFBF
 */
 
 
@@ -84,7 +86,7 @@ header .container {
 }
 
 .search {
-    background-color: #fff;
+    background-color: #FFFFFF;
     margin-left: 11px;
     border-radius: 8px;
     width: 281px;
@@ -241,4 +243,74 @@ p.establishment-card-address {
 p.establishment-card-hours {
     font-size: 10px;
     letter-spacing: 2px;
+}
+
+/* Restaurants Page */
+
+header.establishment {
+    background-color: #FFFCF7;
+    height: 75px;
+}
+
+header.establishment #logo img{
+    padding-left: 86px;
+}
+
+header.establishment p {
+    color: #FFC56D;
+}
+
+section.establishment-page-primary p {
+    margin-bottom: 0;
+}
+
+section.establishment-page-primary img {
+    object-fit: cover;
+}
+
+.establishment-info {
+    margin-top: 40px;
+}
+
+.establishment-info .establishment-name {
+    color: #4CA585;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .75px;
+}
+
+.establishment-info .establishment-hours {
+    color: #9F9F9F;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.establishment-info .establishment-address {
+    color: #BFBFBF;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.establishment-review {
+    color: #FFC56D;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.establishment-favourite {
+    color: #BFBFBF;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.submitted-images img {
+    object-fit: cover;
+    border: 2px solid #FFFCF7;
+}
+
+/* Space */
+
+section.space {
+    margin-top: 90px;
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="11px" viewBox="0 0 75 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="5.5 8.25 2.26718111 9.94959347 2.88459458 6.34979673 0.26918916 3.80040653 3.88359056 3.27520327 5.5 0 7.11640944 3.27520327 10.7308108 3.80040653 8.11540542 6.34979673 8.73281889 9.94959347"></polygon>
+    </defs>
+    <g id="NUMU-Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Restaurant-Page" transform="translate(-42.000000, -554.000000)">
+            <g id="Group" transform="translate(42.000000, 554.000000)">
+                <polygon id="Star" stroke="#FFC56D" stroke-width="0.5" fill="#FFC56D" points="5.5 8.25 2.26718111 9.94959347 2.88459458 6.34979673 0.26918916 3.80040653 3.88359056 3.27520327 5.5 0 7.11640944 3.27520327 10.7308108 3.80040653 8.11540542 6.34979673 8.73281889 9.94959347"></polygon>
+                <polygon id="Star-Copy" stroke="#FFC56D" stroke-width="0.5" fill="#FFC56D" points="21.5 8.25 18.2671811 9.94959347 18.8845946 6.34979673 16.2691892 3.80040653 19.8835906 3.27520327 21.5 0 23.1164094 3.27520327 26.7308108 3.80040653 24.1154054 6.34979673 24.7328189 9.94959347"></polygon>
+                <polygon id="Star-Copy-2" stroke="#FFC56D" stroke-width="0.5" fill="#FFC56D" points="37.5 8.25 34.2671811 9.94959347 34.8845946 6.34979673 32.2691892 3.80040653 35.8835906 3.27520327 37.5 0 39.1164094 3.27520327 42.7308108 3.80040653 40.1154054 6.34979673 40.7328189 9.94959347"></polygon>
+                <polygon id="Star-Copy-3" stroke="#FFC56D" stroke-width="0.5" fill="#FFC56D" points="53.5 8.25 50.2671811 9.94959347 50.8845946 6.34979673 48.2691892 3.80040653 51.8835906 3.27520327 53.5 0 55.1164094 3.27520327 58.7308108 3.80040653 56.1154054 6.34979673 56.7328189 9.94959347"></polygon>
+                <g id="Rectangle" transform="translate(64.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" stroke="#FFC56D" stroke-width="0.5" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <rect fill="#FFC56D" mask="url(#mask-2)" x="-1" y="-3" width="5" height="17"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
