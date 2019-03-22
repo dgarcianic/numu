@@ -49,16 +49,29 @@ section.sign-in {
     background-color: #FFC56D;
 }
 
+section.sign-in .row {
+    margin-top: 150px;
+}
+
+section.sign-in img {
+    height: 44px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
 section.sign-in p {
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family:  'Nunito', 'sans-serif';
     /* font-weight: bold; */
     color: #FFFFFF;
     text-align: center;
+    font-size: 21px;
     letter-spacing: 1.5px;
+    margin-bottom: 68px;
 }
 
-section.sign-in-form {
-    background-color: #FFC56D
+section.sign-in-form .row {
+    background-color: #FFC56D;
+    padding: 0 25px;
 }
 
 section.sign-in-form a {
@@ -69,6 +82,37 @@ section.sign-in-form .btn-primary {
     background-color: #FFFFFF;
     color: #FFC56D;
     border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+section.sign-in-form .form-group .numu-form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    border-radius: 8px;
+}
+
+section.sign-in-form input {
+    width: 100%;
+    font-family: 'Quicksand', 'sans serif';
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+
+}
+
+section.sign-in-form input::placeholder {
+    color: #BFBFBF;
+    padding-left: 12px;
+}
+
+section.sign-in-form p.forgot-password, section.sign-in-form p.no-account {
+    font-size: 12px;
 }
 
 /* Sign Up */
