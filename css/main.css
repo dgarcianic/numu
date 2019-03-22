@@ -3,6 +3,8 @@
 /* 	https://www.google.com/fonts#UsePlace:use/Collection:Lato */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
 
 
 /* Colours 
@@ -18,7 +20,7 @@
 
 html {
     font-size: 16px;
-    background-color: #FFFCF7
+    /* background-color: #FFFCF7; */
 }
 
 /* Landing Page */
@@ -71,12 +73,78 @@ section.sign-in-form .btn-primary {
 
 /* Sign Up */
 
-#logo {
-    position: absolute;
-    left:0;
-    right:0;
-    margin: 0 auto;
-    bottom: 4px;
+section.sign-up img {
+    height: auto;
+    width: 100%;
+    padding: 0 85px;
+}
+
+section.sign-up .row {
+    padding-top: 66px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section.sign-up p {
+    font-family: 'Quicksand', 'sans serif';
+    font-weight: bold;
+    color: #BFBFBF;
+    font-size: 16.85px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section.sign-up-form .row {
+    padding: 40px;
+}
+
+section.sign-up-form input {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', 'sans serif';
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+section.sign-up-form input::placeholder {
+    color: #BFBFBF;
+    padding-left: 12px;
+}
+
+section.sign-up-form .form-group {
+    margin-bottom: 10px;
+}
+
+section.sign-up-form .form-group, section.sign-up-form input {
+    background-color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    border-radius: 8px;
+}
+
+section.sign-up-form .btn-primary {
+    background-color: #FFC56D;
+    border: 1px solid #FFC56D;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: 'Quicksand', 'sans serif';
+    font-weight: bold;
+    letter-spacing: .5px;
+    height: 30px;
+}
+
+section.sign-up-form p.terms {
+    font-size: 13.25px;
+    font-family: 'Quicksand', 'sans serif';
+    font-weight: bold;
+    color: #BFBFBF;
+    padding: 0 40px;
+}
+
+section.sign-up-form p.terms a {
+    color: #FFC56D;
 }
 
 /*  Header  */
@@ -154,17 +222,23 @@ footer img {
 /* Body */
 
 body {
+    font-family: 'Nunito', sans-serif;
     margin-top: 75px;
+    background-color: #FFFCF7;
 }
 
 body#landing-page-body {
     margin: 0;
 }
 
+span.orange {
+    color: #FFC56D
+}
+
 /* Categories Section */
 
 section.categories {
-    background-color: #FFFCF7;
+    /* background-color: #FFFCF7; */
     padding-top: 40px;
 }
 
@@ -203,11 +277,11 @@ section.categories .card p.card-text {
     color: #4CA585;
 }
 
-/* Establishments */
+/* Establishment List */
 
-section.establishments {
+/* section.establishments {
     background-color: #FFFCF7
-}
+} */
 
 section.establishments .establishment-card {
     border: 1.5px solid #4CA585;
@@ -256,7 +330,15 @@ p.establishment-card-hours {
     letter-spacing: 2px;
 }
 
-/* Restaurants Page */
+/* Establishment Page */
+
+#logo {
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    bottom: 4px;
+}
 
 header.establishment {
     background-color: #FFFCF7;
@@ -271,9 +353,9 @@ header.establishment span {
     color: #FFC56D;
 }
 
-section.establishment-page-primary p {
+/* section.establishment-page-primary p {
     margin-bottom: 0;
-}
+} */
 
 /* section.establishment-page-primary img {
     object-fit: cover;
@@ -281,7 +363,19 @@ section.establishment-page-primary p {
 
 .establishment-info {
     margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: transparent;
 }
+
+.establishment-info p {
+    margin-bottom: 0;
+}
+
+/* .establishment-extra-info {
+    padding-right: 40px;
+    padding-left: 40px;
+} */
 
 .establishment-info .establishment-name {
     color: #4CA585;
@@ -303,19 +397,20 @@ section.establishment-page-primary p {
     letter-spacing: .5px;
 }
 
-.establishment-review {
+span.establishment-review {
     color: #FFC56D;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: .5px;
+    padding-left: 6px;
 }
 
-.establishment-favourite {
+span.establishment-favourite {
     color: #BFBFBF;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: .5px;
 }
 
-.submitted-images {
+.submitted-images .col-4.submitted-image {
     padding-left: 0;
     padding-right: 0;
 }
@@ -325,8 +420,44 @@ section.establishment-page-primary p {
     border: 2px solid #FFFCF7;
 }
 
-/* Space */
+section.user-reviews img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 
-section.space {
-    margin-top: 90px;
+section.user-reviews p {
+    font-size: 10px;
+    color: #9F9F9F;
+    margin-bottom: 0;
+}
+
+section.user-reviews .row {
+    padding: 0 20px;
+}
+
+section.user-reviews .col-4 {
+    padding-left: 0;
+}
+
+section.user-reviews .col-8.user-review{
+    margin-left: -50px;
+    border: 1px solid #9F9F9F;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+/* Buttons */
+
+.btn.btn-secondary {
+    background-color: #FFC56D;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    width: 206px;
+    border-radius: 8px;
+    letter-spacing: .5px;
+    /* height: 25px; */
 }
