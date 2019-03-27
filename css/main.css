@@ -333,7 +333,6 @@ section.establishments .establishment-card {
     height: 374px;
     padding: 20px;
     background-color: transparent;
-    margin-bottom: 40px;
     border-radius: 8px;
     margin-top: 40px;
 }
@@ -441,6 +440,16 @@ header.establishment span {
     letter-spacing: .5px;
 }
 
+.establishment-about .row {
+    margin: 0 10px;
+}
+
+.establishment-about .row p {
+    color: #9F9F9F;
+    font-size: 12px;
+    font-family: 'Nunito', 'sans serif';
+}
+
 span.establishment-review {
     color: #FFC56D;
     font-size: 10px;
@@ -489,6 +498,22 @@ section.user-reviews .col-8.user-review{
     border: 1px solid #9F9F9F;
     padding-top: 10px;
     border-radius: 8px;
+}
+
+/* My Profile */
+
+body.gradient-page {
+    height: 100vh;
+    width: 100vw;
+    background: -webkit-linear-gradient(top, #FFC56D 0%,#FFC56D 15%, #FFFCF7 35%, #FFFCF7 100%);
+}
+
+header.fixed-top.establishment.profile {
+    background-color: #FFC56D;
+}
+
+header.fixed-top.establishment.profile span{
+    color: #FFFCF7;
 }
 
 /* Buttons */
