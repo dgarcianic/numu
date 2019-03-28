@@ -20,7 +20,6 @@
 
 html {
     font-size: 16px;
-    /* background-color: #FFFCF7; */
 }
 
 /* Landing Page */
@@ -61,7 +60,6 @@ section.sign-in img {
 
 section.sign-in p {
     font-family:  'Nunito', 'sans-serif';
-    /* font-weight: bold; */
     color: #FFFFFF;
     text-align: center;
     font-size: 21px;
@@ -239,7 +237,6 @@ span.back-button {
     letter-spacing: 2px;
     color: #FFFCF7;
     font-weight: 500;
-    /* padding-top: 6px; */
     padding-left: 9px;
 }
 
@@ -282,7 +279,6 @@ span.orange {
 /* Categories Section */
 
 section.categories {
-    /* background-color: #FFFCF7; */
     padding-top: 40px;
 }
 
@@ -322,10 +318,6 @@ section.categories .card p.card-text {
 }
 
 /* Establishment List */
-
-/* section.establishments {
-    background-color: #FFFCF7
-} */
 
 section.establishments .establishment-card {
     border: 1.5px solid #4CA585;
@@ -396,14 +388,6 @@ header.establishment span {
     color: #FFC56D;
 }
 
-/* section.establishment-page-primary p {
-    margin-bottom: 0;
-} */
-
-/* section.establishment-page-primary img {
-    object-fit: cover;
-} */
-
 .establishment-info {
     margin-top: 40px;
     padding-right: 40px;
@@ -414,11 +398,6 @@ header.establishment span {
 .establishment-info p {
     margin-bottom: 0;
 }
-
-/* .establishment-extra-info {
-    padding-right: 40px;
-    padding-left: 40px;
-} */
 
 .establishment-info .establishment-name {
     color: #4CA585;
@@ -503,8 +482,6 @@ section.user-reviews .col-8.user-review{
 /* My Profile */
 
 body.gradient-page {
-    height: 100vh;
-    width: 100vw;
     background: -webkit-linear-gradient(top, #FFC56D 0%,#FFC56D 15%, #FFFCF7 35%, #FFFCF7 100%);
 }
 
@@ -516,11 +493,63 @@ header.fixed-top.establishment.profile span{
     color: #FFFCF7;
 }
 
+section.profile-image .container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 section.profile-image .container img{
     border: 10px solid #FFFCF7;
     border-radius: 50%;
-    width: 250px;
+    margin-top: 50px;
+    width: 100%;
     height: auto;
+}
+
+section.profile-info p {
+    margin: 0;
+}
+
+section.profile-info p.profile-name {
+    color: #4CA585;
+    font-family: 'Nunito', 'sans serif';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+section.profile-info p.edit-profile {
+    color: #BFBFBF;
+    font-family: 'Nunito', 'sans serif';
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+section.profile-info .user-card.col-12 {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+section.profile-info .profile-card {
+    border: 1.5px solid #4CA585;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0;
+    padding: 20px;
+}
+
+section.profile-info .profile-bio p {
+    font-family: 'Nunito', 'sans serif';
+    color: #4CA585;
+    font-size: 12px;
+}
+
+/* Events */
+
+section.establishments.events .establishment-card.events {
+    height: 275px;
 }
 
 /* Buttons */
@@ -535,5 +564,4 @@ section.profile-image .container img{
     width: 206px;
     border-radius: 8px;
     letter-spacing: .5px;
-    /* height: 25px; */
 }
