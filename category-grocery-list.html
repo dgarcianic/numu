@@ -12,6 +12,11 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script>
+		function goBack() {
+  			window.history.back();
+		}
+	</script>
 	
 </head>
 <body>
@@ -20,7 +25,7 @@
 		<div class="container">
 			<div class="row no-gutters">
 				<div class="col-3">
-					<img src="img/back.svg"><span class="back-button">BACK</span>
+					<img src="img/back.svg"><span class="back-button" onclick="goBack()">BACK</span>
 				</div>
 				<div class="col-9">
 					<div class="search align-items-left">
@@ -38,6 +43,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xs-12">
+					<a href="grocery-page-thrifty.html">
 					<div class="establishment-card">
   						<img class="card-img-top" src="img/thrifty-foods.jpg" alt="food">
  						<div class="card-body mt-20">
@@ -46,6 +52,7 @@
 							<p class="establishment-card-hours"><span class="orange">OPEN</span> • 7:00AM - 10:00PM</p>
   						</div>
 					</div>
+					</a>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -81,16 +88,24 @@
 		<div class="container">
 			<div class="row justify-content-center justify-content-between">
 				<div class="col-xs-2">
+					<a href="categories.html">
 					<img src="img/home-button.svg">
+					</a>
 				</div>
 				<div class="col-xs-2">
+					<a href="favourites.html">
 					<img src="img/favourites.svg">
+					</a>
 				</div>
 				<div class="col-xs-2">
+					<a href="my-profile.html">
 					<img src="img/my-profile.svg">
+					</a>
 				</div>
 				<div class="col-xs-2">
+					<a href="events.html">
 					<img src="img/events.svg">
+					</a>
 				</div>
 				<div class="col-xs-2">
 					<img src="img/settings.svg">
