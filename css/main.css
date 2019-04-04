@@ -26,6 +26,58 @@ a:active {
     text-decoration:none;
 }
 
+
+/* Nav */
+.lockIphone {
+    overflow: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling: auto;
+}
+
+.navmenu {
+    padding-top: 50px;
+    width: 300px;
+}
+@media (max-width: 991px){
+    .offcanvas-sm {
+        
+    }
+    .offcanvas-sm.in {
+        right: 0;
+    }
+}
+.navmenu-default, .navbar-default .navbar-offcanvas {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navmenu-fixed-right, .navbar-offcanvas {
+    left: auto!important;
+    right: -300px;
+    transition: right 0.4s ease;
+    border-width: 0 0 0 1px;
+}
+.navmenu-fixed-left, .navmenu-fixed-right, .navbar-offcanvas {
+    position: fixed;
+    z-index: 1051;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    border-radius: 0;
+}
+.navmenu, .navbar-offcanvas {
+    width: 300px;
+    height: calc(100vh - 50px);
+    border-width: 0;
+    border-radius: 0;
+}
+
+.google-map {
+    width: 100vw;
+    height: 100vw;
+}
+
+
+
 /* Landing Page */
 
 section.landing-page {
