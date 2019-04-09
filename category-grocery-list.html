@@ -12,6 +12,7 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script>
 		function goBack() {
   			window.history.back();
@@ -20,6 +21,18 @@
 	
 </head>
 <body>
+
+	<!--  in canvas-slid -->
+	<div class="navmenu navmenu-default navmenu-fixed-right offcanvas-sm">
+		<img class="settings-logo" src="img/numu-logo-orange.svg">
+		<ul class="nav navmenu-nav flex-column">
+			<li class="nav-item active">My Account</li>
+			<li class="nav-item">Help</li>
+			<li class="nav-item">About Numu</li>
+			<li class="nav-item">Terms & Conditions</li>
+		</ul>
+	</div>
+
 	<!--  start header  -->
 	<header class="fixed-top">
 		<div class="container">
@@ -108,7 +121,7 @@
 					</a>
 				</div>
 				<div class="col-xs-2">
-					<img src="img/settings.svg">
+					<img src="img/settings.svg" class="navbar-settings">
 				</div>
 			</div>
 		</div>

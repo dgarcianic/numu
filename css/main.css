@@ -28,10 +28,27 @@ a:active {
 
 
 /* Nav */
+
 .lockIphone {
     overflow: hidden;
     height: 100%;
     -webkit-overflow-scrolling: auto;
+}
+
+.settings-logo {
+    height: 14px;
+    width: auto;
+    padding-left: 77px;
+    margin-bottom: 30px;
+}
+
+.navmenu li {
+    font-size: 12px;
+    letter-spacing: .38px;
+    font-family: 'quicksand', 'sans serif';
+    color: #4CA585;
+    font-weight: bold;
+    padding: 10px 0 10px 40px;
 }
 
 .navmenu {
@@ -39,16 +56,16 @@ a:active {
     width: 300px;
 }
 @media (max-width: 991px){
-    .offcanvas-sm {
+    /* .offcanvas-sm {
         
-    }
+    } */
     .offcanvas-sm.in {
         right: 0;
     }
 }
 .navmenu-default, .navbar-default .navbar-offcanvas {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    background-color: #FFFCF7;
+    /* border-color: #e7e7e7; */
 }
 .navmenu-fixed-right, .navbar-offcanvas {
     left: auto!important;
@@ -65,7 +82,7 @@ a:active {
     border-radius: 0;
 }
 .navmenu, .navbar-offcanvas {
-    width: 300px;
+    width: 225px;
     height: calc(100vh - 50px);
     border-width: 0;
     border-radius: 0;
